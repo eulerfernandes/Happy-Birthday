@@ -17,7 +17,25 @@ gap: 100px;
         gap: 20px;
     }
 
+    a{
+        color: #747474;
+    }
 `;
 
-export const ContainerItens = styled.div``;
+export const ContainerItens = styled.div`
+    
+    button{
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        width: 100px;
+        cursor: pointer;
+
+
+    }
+
+
+
+`;
 
