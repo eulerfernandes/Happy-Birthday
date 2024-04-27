@@ -1,41 +1,101 @@
 import styled from 'styled-components';
 
+import Flor from '../../assets/home.png';
 
 export const Container = styled.div`
-
-padding: 50px;
+    background-image: url(${Flor});
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px;
+    gap: 100px;
 `;
 
 export const ContainerLinks = styled.div`
-display: flex;
-flex-direction: row;
-gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
 
+    .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    img {
+        width: 50px;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+        transform: scale(1.05);
+        }
+    }
 
     .box {
         display: flex;
         gap: 20px;
     }
 
-    a{
-        color: #747474;
+    a {
+        font-size: 28px;
+        cursor: pointer;
+
+        &:hover {
+        opacity: 0.8;
+        }
+    }
+    
+    p {
+        font-size: 36px;
+        font-weight: 800;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+        transform: scale(1.05);
+        }
     }
 `;
 
 export const ContainerItens = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    button{
-        background-color: red;
-        color: white;
-        border: none;
-        border-radius: 10px;
-        width: 100px;
-        cursor: pointer;
-
-
+    h1 {
+        margin-top: 80px;
+        font-size: 120px;
+        font-weight: 1000;
     }
 
+    h2 {
+        margin-top: 30px;
+        font-size: 24px;
+        font-style: italic;
+        font-family: "Roboto";
+        font-weight: 100;
+    }
 
+    button {
+        margin-top: 150px;
+        background-color: red;
+        font-size: 24px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        width: 300px;
+        height: 60px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
 
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
 `;
 
