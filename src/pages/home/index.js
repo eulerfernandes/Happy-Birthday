@@ -24,7 +24,7 @@ function Home() {
       <ContainerItens>
         <h1>FELIZ ANIVERSÁRIO!</h1>
         <h2>Que tudo de bom lhe aconteça neste dia tão marcante e especial na sua vida. Aproveite com um grande sorriso no rosto, e divirta-se muito!</h2>
-        <button>Ver Depoimentos</button>
+        <a href="#Depoimentos"><button >Ver Depoimentos</button></a>
       </ContainerItens>
 
     </Container>
