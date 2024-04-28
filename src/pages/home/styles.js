@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
-import Flor from '../../assets/home.png';
 
 export const Container = styled.div`
-    background-image: url(${Flor});
-    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
