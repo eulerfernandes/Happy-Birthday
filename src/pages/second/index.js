@@ -4,14 +4,9 @@ import img1 from '../../assets/img 2.png'
 import img2 from '../../assets/img 3.png'
 import { ContainerEdit, Container } from "./styles";
 
-
-
-
 function Second() {
     return (
-
         <Container>
-
             <ContainerEdit>
 
                 <div className="text">
@@ -29,12 +24,9 @@ function Second() {
                     <img src={img1}></img>
                     <img src={img2}></img>
                 </div>
+
             </ContainerEdit>
-
         </Container>
-
-
-
     )
 }
 
