@@ -1,8 +1,8 @@
 import React from "react";
-import { Container } from "../home/styles";
 import img from '../../assets/img 1.png'
 import img1 from '../../assets/img 2.png'
 import img2 from '../../assets/img 3.png'
+import { ContainerEdit, Container } from "./styles";
 
 function Second() {
     return (
@@ -17,4 +17,4 @@ function Second() {
 }
 
 
-export default Second  /* exportando*/ 
+export default Second;
