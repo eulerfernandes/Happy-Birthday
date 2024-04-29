@@ -65,28 +65,28 @@ export const ContainerItens = styled.div`
     justify-content: center;
     
     h1 {
-        margin-top: 80px;
-        font-size: 120px;
+        margin-top: 40px;
+        font-size: 82px;
         font-weight: 1000;
     }
 
     h2 {
         margin-top: 30px;
-        font-size: 24px;
+        font-size: 16px;
         font-style: italic;
         font-family: "Roboto";
         font-weight: 100;
     }
 
     button {
-        margin-top: 150px;
+        margin-top: 60px;
         background-color: red;
-        font-size: 24px;
+        font-size: 16px;
         color: white;
         border: none;
         border-radius: 25px;
-        width: 300px;
-        height: 60px;
+        width: 260px;
+        height: 40px;
         cursor: pointer;
         transition: transform 0.3s ease-in-out;
 
