@@ -4,8 +4,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   overflow: hidden;
-  width: 80%;
-  padding-top: 56.25%;
 
   .video-container {
     position: absolute;

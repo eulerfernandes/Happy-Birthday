@@ -5,6 +5,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const ContainerEdit = styled.div`

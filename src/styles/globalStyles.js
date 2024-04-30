@@ -8,6 +8,5 @@ export default createGlobalStyle`
     font-family: "Lilita One", "Roboto";
     color: white;
     background-color: darkslategray;
-    
 }
 `
