@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: "Lilita One", "Roboto";
     color: white;
-    background-color: darkslategray;
+    background-color: #5C0528
     
 }
 `

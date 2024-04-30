@@ -3,6 +3,8 @@
 import React from "react";
 
 import Flor from '../../assets/flor_icon.png';
+import img3 from '../../assets/photoMadai.jpeg'
+
 import { Container, ContainerLinks, ContainerItens } from './styles';
 
 function Home() {
