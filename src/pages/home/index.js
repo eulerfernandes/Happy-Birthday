@@ -3,13 +3,12 @@
 import React from "react";
 
 import Flor from '../../assets/flor_icon.png';
-import img3 from '../../assets/photoMadai.jpeg'
 
 import { Container, ContainerLinks, ContainerItens } from './styles';
 
 function Home() {
   return (
-    <Container>
+    <Container id="home">
 
       <ContainerLinks>
         <div className="name">
@@ -18,15 +17,17 @@ function Home() {
         </div>
 
         <div className="box">
-          <a>Home</a>
-          <a>Depoimentos</a>
+          <a href="#home">Home</a>
+          <a href="#texto">Declaração</a>
         </div>
       </ContainerLinks>
 
       <ContainerItens>
         <h1>FELIZ ANIVERSÁRIO!</h1>
         <h2>Que tudo de bom lhe aconteça neste dia tão marcante e especial na sua vida. Aproveite com um grande sorriso no rosto, e divirta-se muito!</h2>
-        <a href="#Depoimentos"><button >Ver Depoimentos</button></a>
+        <a href="#depoimentos">
+          <button >Ver Depoimentos</button>
+        </a>
       </ContainerItens>
 
     </Container>

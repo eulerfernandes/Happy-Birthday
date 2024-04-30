@@ -6,12 +6,11 @@ import img1 from '../../assets/img 2.png'
 import img2 from '../../assets/img 3.png'
 import img3 from '../../assets/photoMadai.jpeg'
 import { ContainerEdit, Container } from "./styles";
-import Caroussel from '../../components/caroussel/carrousselConfig';
 import Video from '../video';
 
 function Second() {
     return (
-        <Container id="Depoimentos">
+        <Container id="texto">
             <ContainerEdit>
 
                 <div className="text">
@@ -36,8 +35,6 @@ function Second() {
                 </div>
 
             </ContainerEdit>
-            <Caroussel />
-
             <div className="video">
             <Video />
             </div>
