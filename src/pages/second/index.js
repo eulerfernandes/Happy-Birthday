@@ -1,18 +1,17 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import img from '../../assets/img 1.png'
 import img1 from '../../assets/img 2.png'
 import img2 from '../../assets/img 3.png'
 import img3 from '../../assets/photoMadai.jpeg'
 import { ContainerEdit, Container } from "./styles";
-
-
-
+import Caroussel from '../../components/caroussel/carrousselConfig';
+import Video from '../video';
 
 function Second() {
     return (
-
-        <Container>
-
+        <Container id="Depoimentos">
             <ContainerEdit>
 
                 <div className="text">
@@ -35,12 +34,14 @@ function Second() {
                     <img src={img2}></img>
                     <img src={img3}></img>
                 </div>
+
             </ContainerEdit>
+            <Caroussel />
 
+            <div className="video">
+            <Video />
+            </div>
         </Container>
-
-
-
     )
 }
 
