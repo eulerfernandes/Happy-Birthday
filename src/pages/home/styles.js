@@ -65,13 +65,8 @@ export const ContainerItens = styled.div`
     justify-content: center;
     
     h1 {
-<<<<<<< HEAD
         margin-top: 50px;
         font-size: 70px;
-=======
-        margin-top: 40px;
-        font-size: 82px;
->>>>>>> 3bf8aa42faeaf48182d575043ab78e24a309875a
         font-weight: 1000;
     }
 
