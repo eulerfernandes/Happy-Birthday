@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+
+
 export default createGlobalStyle`
 
 * {
@@ -7,7 +9,5 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: "Lilita One", "Roboto";
     color: white;
-    background-color: #5C0528
-    
 }
 `
