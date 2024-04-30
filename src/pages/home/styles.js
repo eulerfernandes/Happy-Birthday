@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import Home from '../../assets/home.png';
 
 export const Container = styled.div`
     display: flex;
@@ -7,6 +8,7 @@ export const Container = styled.div`
     min-height: 100vh;
     padding: 50px;
     gap: 100px;
+    background-image: url(${Home});    
 `;
 
 export const ContainerLinks = styled.div`
@@ -39,6 +41,7 @@ export const ContainerLinks = styled.div`
 
     a {
         font-size: 28px;
+        text-decoration: none;
         cursor: pointer;
 
         &:hover {

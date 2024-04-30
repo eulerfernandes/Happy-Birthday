@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #5C0528;   
 
     .video {
         display: flex;

@@ -10,7 +10,7 @@ import Video from '../video';
 
 function Second() {
     return (
-        <Container id="Depoimentos">
+        <Container id="texto">
             <ContainerEdit>
 
                 <div className="text">
@@ -35,8 +35,6 @@ function Second() {
                 </div>
 
             </ContainerEdit>
-            <Caroussel />
-
             <div className="video">
             <Video />
             </div>
